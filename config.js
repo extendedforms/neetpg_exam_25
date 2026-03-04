@@ -4,10 +4,10 @@
 
 // ✅ Google Apps Script Web App URL
 window.API_URL =
-  "https://script.google.com/macros/s/AKfycbyrR6uJDuFZBkbrtbjiTuIrKB31alvPWVmz4znmccpqPR_u1TLIqxYfziq9QJObdWBL/exec";
+  "https://script.google.com/macros/s/AKfycbxVBb5c7tIBzKJtL62AZxoWc_8LyNnGp-BKllyXtKCTJuX4USLYU9Q5gmo8tQ09BPKg/exec";
 
 // ✅ Exam settings
-window.EXAM_DURATION_MIN = 60;
+window.EXAM_DURATION_MIN = 120;
 window.MARKS_CORRECT = 4;
 window.MARKS_WRONG = -1;
 
@@ -17,8 +17,8 @@ window.MARKS_WRONG = -1;
 window.EXAM_TZ = "Asia/Kolkata";
 
 // ✅ Fixed window (IST)
-window.EXAM_START_IST = "2026-02-25T08:00:00+05:30";
-window.EXAM_END_IST   = "2026-03-28T09:00:00+05:30";
+window.EXAM_START_IST = "2026-03-04T08:00:00+05:30";
+window.EXAM_END_IST   = "2026-03-08T09:00:00+05:30";
 
 // Parsed milliseconds (used by pages)
 window.EXAM_START_MS = Date.parse(window.EXAM_START_IST);
@@ -43,4 +43,5 @@ window.formatIST = function formatIST(dateOrMs = Date.now()) {
 window.isWithinExamWindow = function isWithinExamWindow(nowMs = Date.now()) {
   if (!Number.isFinite(window.EXAM_START_MS) || !Number.isFinite(window.EXAM_END_MS)) return true;
   return nowMs >= window.EXAM_START_MS && nowMs <= window.EXAM_END_MS;
+
 };
