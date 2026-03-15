@@ -7,7 +7,7 @@ window.API_URL =
   "https://script.google.com/macros/s/AKfycbxVBb5c7tIBzKJtL62AZxoWc_8LyNnGp-BKllyXtKCTJuX4USLYU9Q5gmo8tQ09BPKg/exec";
 
 // ✅ Exam settings
-window.EXAM_DURATION_MIN = 120;
+window.EXAM_DURATION_MIN = 180;
 window.MARKS_CORRECT = 4;
 window.MARKS_WRONG = -1;
 
@@ -18,7 +18,7 @@ window.EXAM_TZ = "Asia/Kolkata";
 
 // ✅ Fixed window (IST)
 window.EXAM_START_IST = "2026-03-05T18:00:00+05:30";
-window.EXAM_END_IST   = "2026-03-06T17:30:00+05:30";
+window.EXAM_END_IST   = "2026-03-21T17:30:00+05:30";
 
 // Parsed milliseconds (used by pages)
 window.EXAM_START_MS = Date.parse(window.EXAM_START_IST);
