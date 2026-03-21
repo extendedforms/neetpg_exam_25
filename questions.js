@@ -1191,7 +1191,7 @@ window.questions = [
     ],
     answerIndex: 2,
     correctAnswerText: "First node of Ranvier"
-  }
+  },
   {
     id: 86,
     image: "",
@@ -1685,7 +1685,7 @@ window.questions = [
     ],
     answerIndex: 2,
     correctAnswerText: "Negative feedback"
-  }
+  },
 {
   id: 124,
   image: "",
@@ -2150,7 +2150,7 @@ window.questions = [
     ],
     answerIndex: 1,
     correctAnswerText: "Fast adapting and encapsulated"
-  }
+  },
   {
     id: 157,
     image: "",
@@ -2412,18 +2412,19 @@ window.questions = [
     correctAnswerText: "Hypertension with bradycardia"
   },
   {
-    id: 177,
-    image: "",
-    question: "Which part of the nephron is the major site for antidiuretic hormone (ADH)-dependent urea permeability, helping in medullary hyperosmolarity?",
-    options: [
-      "Thick ascending limb of loop of Henle",
-      "Distal convoluted tubule",
-      "Cortical collecting duct",
-      "Inner medullary collecting duct"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Inner medullary collecting duct"
-  },
+  id: 47,
+  image: "",
+  question:
+    "A 25-year-old medical student is asked about the functional difference between cortical nephrons and juxtamedullary nephrons. Which of the following is the most important function of juxtamedullary nephrons?",
+  options: [
+    "Formation and excretion of waste products only",
+    "Concentration of urine",
+    "Glomerular filtration without tubular reabsorption",
+    "Secretion of erythropoietin"
+  ],
+  answerIndex: 1,
+  correctAnswerText: "Concentration of urine"
+},
   {
     id: 178,
     image: "",
