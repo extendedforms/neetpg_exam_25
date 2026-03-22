@@ -2412,7 +2412,7 @@ window.questions = [
     correctAnswerText: "Hypertension with bradycardia"
   },
   {
-  id: 47,
+  id: 177,
   image: "",
   question:
     "A 25-year-old medical student is asked about the functional difference between cortical nephrons and juxtamedullary nephrons. Which of the following is the most important function of juxtamedullary nephrons?",
