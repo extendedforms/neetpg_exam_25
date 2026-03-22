@@ -454,15 +454,15 @@ window.questions = [
     id: 33,
     image: "",
     question:
-      "A researcher wants to measure the glomerular filtration rate (GFR) using a substance that is freely filtered at the glomerulus and is neither reabsorbed nor secreted by the renal tubules. Which of the following substances is the best standard choice?",
+      "A cell at rest has a negative potential inside the cytoplasm relative to the extracellular fluid. This resting distribution of ions is influenced by intracellular non-diffusible proteins causing unequal distribution of diffusible ions across the membrane. Which of the following best explains this phenomenon?",
     options: [
-      "Para-aminohippuric acid",
-      "Inulin",
-      "Glucose",
-      "Urea"
+      "Gibbs-Donnan effect",
+      "Facilitated diffusion",
+      "Secondary active transport",
+      "Simple osmosis",
     ],
-    answerIndex: 1,
-    correctAnswerText: "Inulin"
+    answerIndex: 0,
+    correctAnswerText: "Gibbs-Donnan effect",
   },
   {
     id: 34,
@@ -1676,15 +1676,16 @@ window.questions = [
   {
     id: 123,
     image: "",
-    question: "A healthy man stands up suddenly from a supine position and experiences a brief fall in arterial pressure. Within seconds, stretch receptors in the carotid sinus trigger autonomic adjustments that restore blood pressure toward normal. This response is an example of which of the following control mechanisms?",
+    question:
+      "A student repeatedly rehearses a newly learned fact, and over time it becomes stored for years with synaptic restructuring. Which structure is most important for consolidation of this memory from short-term to long-term storage?",
     options: [
-      "Positive feedback",
-      "Feedforward control",
-      "Negative feedback",
-      "Open-loop regulation"
+      "Hypothalamus",
+      "Hippocampus",
+      "Cerebellum",
+      "Basal ganglia",
     ],
-    answerIndex: 2,
-    correctAnswerText: "Negative feedback"
+    answerIndex: 1,
+    correctAnswerText: "Hippocampus",
   },
 {
   id: 124,
@@ -1703,17 +1704,17 @@ window.questions = [
 {
   id: 125,
   image: "",
-  question:
-    "A patient undergoes pulmonary function testing. Which of the following cannot be measured directly by simple spirometry?",
-  options: [
-    "Tidal volume",
-    "Inspiratory reserve volume",
-    "Vital capacity",
-    "Residual volume",
-  ],
-  answerIndex: 3,
-  correctAnswerText: "Residual volume",
-},
+    question:
+      "A patient feels a specific sensory modality because stimulation travels through a particular afferent pathway to a corresponding sensory area in the brain. This concept is best described by which of the following?",
+    options: [
+      "Law of projection",
+      "Labeled line principle",
+      "Lateral inhibition",
+      "Recruitment",
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Labeled line principle",
+  },
 {
   id: 126,
   image: "",
@@ -2441,15 +2442,17 @@ window.questions = [
   {
     id: 179,
     image: "",
-    question: "A patient with uncontrolled diabetes mellitus is started on insulin therapy. In which of the following tissues does insulin directly increase glucose uptake by promoting translocation of GLUT-4 to the cell membrane?",
+    question:
+      "A young man has recurrent sinusitis, chronic bronchitis, bronchiectasis, and situs inversus. He is also infertile due to defective sperm motility. Which of the following is the most likely underlying defect?",
     options: [
-      "Adipose tissue",
-      "Brain",
-      "Renal tubular epithelium",
-      "Intestinal epithelium"
+      "Mutation in connexin 32 causing gap junction failure",
+      "Dysfunction of dynein arm causing absent ciliary motility",
+      "Defect in cystic fibrosis transmembrane conductance regulator causing thick mucus",
+      "Deficiency of alpha-1 antitrypsin causing emphysema",
     ],
-    answerIndex: 0,
-    correctAnswerText: "Adipose tissue"
+    answerIndex: 1,
+    correctAnswerText:
+      "Dysfunction of dynein arm causing absent ciliary motility",
   },
   {
     id: 180,
